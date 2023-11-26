@@ -25,6 +25,10 @@ const Paginator:React.FC<Props> = ({currentPage, totalCount, limitPerPage}) => {
         paginator.push(i);
     }
 
+    if (paginator.length < currentPage) {
+        dispatch(changeCurrentPage(1));
+    }
+
     return (
         <div className={style.paginator}>
             {
