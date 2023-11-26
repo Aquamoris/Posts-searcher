@@ -1,0 +1,20 @@
+.post {
+  border: 1px solid var(--base_color_opacity);
+  border-radius: 8px;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.input {
+  width: 450px;
+  height: 35px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid var(--base_color_opacity);
+  border-radius: 4px;
+  margin: 10px 0;
+}

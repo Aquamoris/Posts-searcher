@@ -1,0 +1,20 @@
+.paginator {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  @extend .item;
+  background-color: var(--gold_color);
+}

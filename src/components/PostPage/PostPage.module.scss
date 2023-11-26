@@ -1,0 +1,23 @@
+$button_font_size: 16px;
+
+.post {
+  border: 1px solid var(--base_color_opacity);
+  background-color: var(--base_color_opacity);
+  margin: 15px 0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.comment {
+  @extend .post;
+  margin: 10px 0;
+  background-color: var(--white_color);
+}
+
+.backButton {
+  margin-top: 5px;
+  background-color: var(--base_color_opacity);
+  border: 0;
+  padding: $button_font_size / 4 $button_font_size / 2;
+  border-radius: $button_font_size / 4;
+}
